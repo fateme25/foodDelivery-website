@@ -50,7 +50,7 @@ const menu = [
     img: "./assets/images/food5.jpg",
     rateNum: 4.6,
     rateVote: "(16.562)",
-    discount: ["../assets/images/discount12.png", "./assets/images/discount.png"]
+    discount: ["./assets/images/discount12.png", "./assets/images/discount.png"]
 
   },
   {
