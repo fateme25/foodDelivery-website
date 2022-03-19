@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zarFood</title>
+  <!------------ Bootstrap cdn----------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!----------- font-awesome cd----------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+  <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!----------- Navbar Section----------->
+  <nav class="navbar navbar-expand-md  bg-dark navbar-dark " style="background-color: #1A1717;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="logo-1">Zar</span>
+        <span class="logo-2">Food</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <form class="d-flex me-auto" id="search-box">
+          <input class="form-control border-form" type="search">
+          <button class="btn border-form" type="submit">جست و جو</button>
+        </form>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fas fa-user"></i>
+              ثبت نام | ورود
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa fa-shopping-basket"></i>
+              سبد خرید
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <ul class="navbar-item">
+    <li class="item">سفارش غذا</li>
+    <li class="item">صفحه اصلی</li>
+    <li class="item">درباره ما</li>
+    <li class="item">تماس با ما</li>
+  </ul>
+
+  <!----------- Hero-slider--------->
+  <div class="hero-slider">
+    <figure>
+    <img src="./assets/images/bg-light.jpg" alt="rice with carrot and potato">
+    <img src="./assets/images/image 1.jpg"  alt="steak with onion and chicken">
+    <img src="./assets/images/bg-light.jpg" alt="rice with carrot and potato">
+  </figure>
+  </div>
+  <!-------------- facility-icon------------->
+  <div class="facility-feature container">
+    <div class="facility">
+        <img src="./assets/images/image 4.png" alt="امکان خرید حضوری">
+        <img src="./assets/images/image 3.png" alt="دانلود اپلیکیشن زرفود">
+        <img src="./assets/images/image 2.png" alt="تحویل سریع ">
+    </div>
+    <div class="caption">
+      <p>خرید حضوری</p>
+      <p>دانلود اپلیکیشن</p>
+      <p>تحویل سریع</p>
+    </div>
+  </div>
+
+  <!-------------- popular foods----------->
+  <div class="swiper-container container">
+    <div class="title">
+      <h2>برترین ها </h2>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="food-item">
+            <div class="food-image">
+              <img src="./assets/images/img-8.jpg" alt="pizza">
+            </div>
+            <div class="food-info">
+              <h3>پیتزا شیلا</h3>
+            <div class="desc">
+            <div class="rate-comment">
+              <span class="rate-box"> 
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                d="M12 15.0667L16.9467 18.6667L15.0533 12.8534L20 9.33337H13.9333L12 3.33337L10.0667 9.33337H4L8.94667 12.8534L7.05333 18.6667L12 15.0667Z"
+                fill="#FCA311" />
+                </svg>
+                <span class="rate-num">4.6</span>
+              </span>
+              <p class="rate-str">(22,452) امتیاز</p>
+            </div>
+            <p class="text">فست فود ، ساندویچ ، سالاد</p>
+            </div>
+            <div class="delivery-badge">
+              <div class="delivery-man">
+                <img src="./assets/images/delivery-man.png" width="256" height="256" alt="delivery man">
+                <p class="delivery-text">پیک فروشنده <span>6,000</span>تومان</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="food-item">
+              <div class="food-image">
+                <img src="./assets/images/img-4.jpg" alt="sandwich">
+              </div>
+              <div class="food-info">
+                <h3>کلین فود</h3>
+              <div class="desc">
+              <div class="rate-comment">
+                <span class="rate-box"> 
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                  d="M12 15.0667L16.9467 18.6667L15.0533 12.8534L20 9.33337H13.9333L12 3.33337L10.0667 9.33337H4L8.94667 12.8534L7.05333 18.6667L12 15.0667Z"
+                  fill="#FCA311" />
+                  </svg>
+                  <span class="rate-num">4.2</span>
+                </span>
+                <p class="rate-str">(44,472) امتیاز</p>
+              </div>
+              <p class="text">فست فود ، ساندویچ ، سالاد</p>
+              </div>
+              <div class="delivery-badge">
+                <div class="delivery-man">
+                  <img src="./assets/images/delivery-man.png" width="256" height="256" alt="delivery man">
+                  <p class="delivery-text">پیک فروشنده <span>7,000</span>تومان</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="food-item">
+              <div class="food-image">
+                <img src="./assets/images/img-5.png" alt="rice and chicken">
+              </div>
+              <div class="food-info">
+                <h3>رستوران صدر تهران</h3>
+              <div class="desc">
+              <div class="rate-comment">
+                <span class="rate-box"> 
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                  d="M12 15.0667L16.9467 18.6667L15.0533 12.8534L20 9.33337H13.9333L12 3.33337L10.0667 9.33337H4L8.94667 12.8534L7.05333 18.6667L12 15.0667Z"
+                  fill="#FCA311" />
+                  </svg>
+                  <span class="rate-num">4.4</span>
+                </span>
+                <p class="rate-str">(26,542) امتیاز</p>
+              </div>
+              <p class="text">ایرانی ، کباب ، مرغ</p>
+              </div>
+              <div class="delivery-badge">
+                <div class="delivery-man">
+                  <img src="./assets/images/delivery-man.png" width="256" height="256" alt="delivery man">
+                  <p class="delivery-text">پیک فروشنده <span>4,000</span>تومان</p>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="food-item">
+                <div class="food-image">
+                  <img src="./assets/images/img-6.jpg" alt="rice and meat">
+                </div>
+                <div class="food-info">
+                  <h3>فیلیپر p.s</h3>
+                <div class="desc">
+                <div class="rate-comment">
+                  <span class="rate-box"> 
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                    d="M12 15.0667L16.9467 18.6667L15.0533 12.8534L20 9.33337H13.9333L12 3.33337L10.0667 9.33337H4L8.94667 12.8534L7.05333 18.6667L12 15.0667Z"
+                    fill="#FCA311" />
+                    </svg>
+                    <span class="rate-num">4.3</span>
+                  </span>
+                  <p class="rate-str">(29,411) امتیاز</p>
+                </div>
+                <p class="text">ایرانی ،سنتی ، کباب</p>
+                </div>
+                <div class="delivery-badge">
+                  <div class="delivery-man">
+                    <img src="./assets/images/delivery-man.png" width="256" height="256" alt="delivery man">
+                    <p class="delivery-text">ارسال اکسپرس<span>4,500</span>تومان</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="food-item">
+                  <div class="food-image">
+                    <img src="./assets/images/img-7.jpg" alt="">
+                  </div>
+                  <div class="food-info">
+                    <h3>کافه آلندا</h3>
+                  <div class="desc">
+                  <div class="rate-comment">
+                    <span class="rate-box"> 
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                      d="M12 15.0667L16.9467 18.6667L15.0533 12.8534L20 9.33337H13.9333L12 3.33337L10.0667 9.33337H4L8.94667 12.8534L7.05333 18.6667L12 15.0667Z"
+                      fill="#FCA311" />
+                      </svg>
+                      <span class="rate-num">4.5</span>
+                    </span>
+                    <p class="rate-str">(15,42) امتیاز</p>
+                  </div>
+                  <p class="text">ایرانی ،سنتی ، کباب</p>
+                  </div>
+                  <div class="delivery-badge">
+                    <div class="delivery-man">
+                      <img src="./assets/images/delivery-man.png" width="256" height="256" alt="delivery man">
+                      <p class="delivery-text">پیک فروشنده <span>4,500</span>تومان</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagination-btn">
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div> 
+
+  <!-------------- Hero banner---------->
+  <div class="hero-banner">
+    <img src="./assets/images/hero-img.jpg" alt="">
+  </div>
+
+  <!------------ filter section -------------->
+  <div class="menu container">
+    <!-- the best food -->
+    <div class="title">
+      <h2>بهترین ها </h2>
+    </div>
+    <!------------ filter buttons-------------->
+    <div class="btn-container">
+      <button class="filter-btn active" data-id="all">همه</button>
+      <button class="filter-btn" data-id="fast-food">فست فود</button>
+      <button class="filter-btn" data-id="traditional">غذای سنتی </button>
+      <button class="filter-btn" data-id="international">غذای بین الملل</button>
+    </div>
+    <!---------------Menu items------------------>
+
+    <div class="wrapper">
+      <div class="row">
+        <div class="menu-item">
+          <div class="discount">
+            <img src="./assets/images/discount15.png" alt="menu-item">
+            <img src="./assets/images/discount.png" alt="discount-item">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+          </div>
+          <div class="menu-image" style="background-image:url('./food-img/food1.jpg')">
+          </div>
+          <div class="menu-text">
+            <div class="item-title">کباب گوشت گوسفندی</div>
+            <div class="item-rate">
+              <div class="rate-star">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.69533 0.521791L4.86449 4.40022L0.768236 5.02416C0.0336581 5.13548 -0.260734 6.08165 0.271975 6.62358L3.23552 9.64078L2.53459 13.9029C2.40842 14.6734 3.18505 15.2504 3.83552 14.8901L7.5 12.8777L11.1645 14.8901C11.8149 15.2475 12.5916 14.6734 12.4654 13.9029L11.7645 9.64078L14.728 6.62358C15.2607 6.08165 14.9663 5.13548 14.2318 5.02416L10.1355 4.40022L8.30467 0.521791C7.97664 -0.16953 7.02617 -0.178317 6.69533 0.521791Z" fill="#FCD611"/>
+                </svg>
+                <span class="rateItem-num">4.3</span>
+                <span class="rateItem-str">(15,20)</span>
+              </div>
+            <div class="item-purchase">
+              <span class="price">184,000
+                <span class="price-currency">تومان</span>
+              </span>
+              <button class="btn-purchase">مشاهده</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!------------------Download app------------------>
+  <section class="app-promotion">
+    <div class="app-container container">
+      <div class="content-section">
+        <h2>اپلیکیشن زر فود</h2>
+        <p class="content-text">با اپلیکیشن زر ‌فود به راحتی و با چند کلیک ساده می‌توانید رستوران‌ها، کافه‌ها،
+          شیرینی‌فروشی‌ها و
+          سوپرمارکت‌های نزدیک خودتان را جست‌و‌جو کرده و از تجربه سفارش آسان از زر ‌فود لذت ببرید.</p>
+        <p class="download-link">برای دریافت لینک دانلود اپلیکیشن، شماره موبایلتان رو وارد کنید</p>
+        <div class="form-link">
+          <input type="tel" maxlength="13" name="mobile" placeholder="0912XXXXXXX" autocomplete="off">
+          <input type="submit" value="دریافت لینک دانلود">
+        </div>
+        <div class="download-icon">
+          <img src="./assets/images/link01.png" alt="app-storeLink">
+          <img src="./assets/images/link02.png" alt="بازار">
+          <img src="./assets/images/link03.png" alt="سیب اپ">
+          <img src="./assets/images/link04.png" alt="ای پس">
+        </div>
+      </div>
+      <div class="image-section">
+        <div class="image">
+          <img src="./assets/images/app3.png" alt="The image of a zarfood application">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------- Footer---------------->
+  <footer class="footer">
+    <div class="footer-container container">
+      <div class="footer-col">
+        <span class="logo-1">Zar</span>
+        <span class="logo-2">Food</span>
+        <ul class="contact-info">
+          <li>تجربه سفارش غذا با زر فود</li>
+          <li><img src="./assets/images/Vector-phone.svg" alt="phone number">09223740826</li>
+          <li><img src="./assets/images//Vector-location.svg" alt="location">Tehran,Iran</li>
+          <li>ایمیل:fatemehkamarei99@gmail.com</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <ul>
+          <li><a href="#">درباره زر فود</a></li>
+          <li><a href="#">وبلاگ</a></li>
+          <li><a href="#">حریم خصوصی</a></li>
+          <li><a href="#">ثبت نام فروشندگان</a></li>
+          <li><a href="#">ثبت شکایات</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <ul>
+          <li><a href="#">پرسش های متداول</a></li>
+          <li><a href="#">اپلیکیشن موبایل</a></li>
+          <li><a href="#">قوانین سایت</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="trust-symbol">
+          <img src="./assets/images/trust-symbol.png" alt="نماد اعتماد کسب و کار های اینترنتی">
+        </div>
+        <div class="social-links">
+          <a href="#">
+            <svg width="20" height="20" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M31.4024 9.22106C31.4246 9.62573 31.4246 10.0305 31.4246 10.4352C31.4246 22.7781 24.207 37 11.0153 37C6.95115 37 3.17578 35.4679 0 32.8086C0.577434 32.8953 1.13258 32.9242 1.73223 32.9242C5.08562 32.9242 8.1726 31.45 10.6377 28.9352C7.48415 28.8484 4.84137 26.1602 3.93082 22.4602C4.37502 22.5468 4.81915 22.6047 5.28557 22.6047C5.92958 22.6047 6.57367 22.489 7.17325 22.2867C3.88645 21.4195 1.42127 17.6617 1.42127 13.1234V13.0078C2.37618 13.7016 3.48668 14.1352 4.66363 14.1929C2.73151 12.5163 1.4657 9.65465 1.4657 6.41712C1.4657 4.68278 1.82096 3.09294 2.44283 1.70543C5.97395 7.37105 11.2817 11.071 17.2335 11.4757C17.1224 10.782 17.0558 10.0594 17.0558 9.33673C17.0558 4.19136 20.2538 0 24.229 0C26.2944 0 28.1599 1.12734 29.4702 2.94844C31.0913 2.54377 32.6459 1.76326 34.0229 0.693755C33.4898 2.86177 32.3572 4.68287 30.8693 5.83904C32.3129 5.63679 33.712 5.11636 35 4.39378C34.023 6.24371 32.8015 7.8913 31.4024 9.22106Z"
+                fill="black" fill-opacity="0.38" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="20" height="20" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.5039 9.01367C12.5379 9.01367 8.53235 13.2491 8.53235 18.5C8.53235 23.7509 12.5379 27.9863 17.5039 27.9863C22.4699 27.9863 26.4755 23.7509 26.4755 18.5C26.4755 13.2491 22.4699 9.01367 17.5039 9.01367ZM17.5039 24.6674C14.2948 24.6674 11.6712 21.9015 11.6712 18.5C11.6712 15.0985 14.287 12.3326 17.5039 12.3326C20.7209 12.3326 23.3366 15.0985 23.3366 18.5C23.3366 21.9015 20.7131 24.6674 17.5039 24.6674ZM28.935 8.62563C28.935 9.8558 27.9981 10.8383 26.8424 10.8383C25.679 10.8383 24.7499 9.84754 24.7499 8.62563C24.7499 7.40372 25.6868 6.41298 26.8424 6.41298C27.9981 6.41298 28.935 7.40372 28.935 8.62563ZM34.877 10.8713C34.7443 7.90734 34.104 5.28188 32.0505 3.11877C30.0047 0.955651 27.5218 0.278646 24.7186 0.130035C21.8296 -0.0433449 13.1704 -0.0433449 10.2814 0.130035C7.48606 0.270389 5.00307 0.947395 2.94953 3.11051C0.895985 5.27362 0.263525 7.89908 0.122978 10.863C-0.0409927 13.9178 -0.0409927 23.0739 0.122978 26.1287C0.255717 29.0927 0.895985 31.7181 2.94953 33.8812C5.00307 36.0443 7.47825 36.7214 10.2814 36.87C13.1704 37.0433 21.8296 37.0433 24.7186 36.87C27.5218 36.7296 30.0047 36.0526 32.0505 33.8812C34.0962 31.7181 34.7365 29.0927 34.877 26.1287C35.041 23.0739 35.041 13.9261 34.877 10.8713ZM31.1447 29.4064C30.5357 31.0246 29.3567 32.2713 27.8185 32.9235C25.5151 33.8895 20.0494 33.6666 17.5039 33.6666C14.9585 33.6666 9.48494 33.8812 7.18935 32.9235C5.65895 32.2795 4.47992 31.0329 3.86308 29.4064C2.94953 26.9708 3.16035 21.1915 3.16035 18.5C3.16035 15.8085 2.95733 10.0209 3.86308 7.59361C4.47211 5.9754 5.65114 4.72872 7.18935 4.07648C9.49275 3.11051 14.9585 3.33343 17.5039 3.33343C20.0494 3.33343 25.5229 3.11877 27.8185 4.07648C29.3489 4.72046 30.5279 5.96714 31.1447 7.59361C32.0583 10.0292 31.8475 15.8085 31.8475 18.5C31.8475 21.1915 32.0583 26.9791 31.1447 29.4064Z"
+                fill="black" fill-opacity="0.38" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="20" height="20" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M34.9003 3.36838L29.6186 34.7666C29.22 36.9825 28.1809 37.5339 26.7042 36.4902L18.6566 29.0149L14.7735 33.7226C14.3438 34.2642 13.9844 34.7174 13.1562 34.7174L13.7343 24.3859L28.6496 7.39656C29.2981 6.66775 28.5092 6.26393 27.6419 6.99276L9.20268 21.6281L1.26447 18.4962C-0.462259 17.8166 -0.493508 16.3196 1.62388 15.2757L32.6735 0.197035C34.1111 -0.482538 35.369 0.600855 34.9003 3.36838Z"
+                fill="black" fill-opacity="0.38" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="20" height="20" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.83437 37H0.578125V12.297H7.83437V37ZM4.20234 8.92727C1.88203 8.92727 0 6.89553 0 4.44258C1.66078e-08 3.26433 0.442746 2.13435 1.23084 1.3012C2.01893 0.468056 3.08781 0 4.20234 0C5.31687 0 6.38576 0.468056 7.17385 1.3012C7.96194 2.13435 8.40469 3.26433 8.40469 4.44258C8.40469 6.89553 6.52188 8.92727 4.20234 8.92727ZM34.9922 37H27.7516V24.9747C27.7516 22.1088 27.6969 18.4335 23.9789 18.4335C20.2063 18.4335 19.6281 21.5472 19.6281 24.7683V37H12.3797V12.297H19.3391V15.6667H19.4406C20.4094 13.7258 22.7758 11.6776 26.3062 11.6776C33.65 11.6776 35 16.79 35 23.4303V37H34.9922Z"
+                fill="black" fill-opacity="0.38" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
