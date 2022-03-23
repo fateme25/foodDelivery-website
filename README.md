@@ -30,6 +30,6 @@ You do not need to install any software to run this project.
 * Customized Design
 
 ### Figma Design 
-[Figma Design](https://www.figma.com/file/mFZUDgh7vnS3NJyqxcTbgk/food-delivery-website-Ui?node-id=0%3A1) for this project
+[Figma Design](https://www.figma.com/file/mFZUDgh7vnS3NJyqxcTbgk/food-delivery-website-Ui?node-id=0%3A1)for this project
 
 
