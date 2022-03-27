@@ -12,7 +12,7 @@
 Clone this repo and double click the index.html file to run this page on your browser
 
 ## Live Demo 
-https://zarfood.netlify.appp/
+https://zarfood.netlify.app/
 
 
 ### Prerequisites
