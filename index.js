@@ -97,7 +97,7 @@ function displayMenuItems(menuItems) {
       <div class="menu-image" style="background-image:url('${item.img}')">
       </div>
       <div class="menu-text">
-        <div class="item-title">${item.title}</div>
+        <p class="item-title">${item.title}</p>
         <div class="item-rate">
         <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M6.69533 0.521791L4.86449 4.40022L0.768236 5.02416C0.0336581 5.13548 -0.260734 6.08165 0.271975 6.62358L3.23552 9.64078L2.53459 13.9029C2.40842 14.6734 3.18505 15.2504 3.83552 14.8901L7.5 12.8777L11.1645 14.8901C11.8149 15.2475 12.5916 14.6734 12.4654 13.9029L11.7645 9.64078L14.728 6.62358C15.2607 6.08165 14.9663 5.13548 14.2318 5.02416L10.1355 4.40022L8.30467 0.521791C7.97664 -0.16953 7.02617 -0.178317 6.69533 0.521791Z" fill="#FCD611"/>
