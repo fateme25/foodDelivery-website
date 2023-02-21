@@ -19,10 +19,10 @@ https://zarfood.netlify.app/
 You do not need to install any software to run this project.
 
 ## Built with
-- Swiper (The Most Modern Mobile Touch Slider)
+- vanilla javascript
 - jQuery v3.6.0
 - Bootstrap v5.1.2
-- vanilla javascript
+- Swiper (The Most Modern Mobile Touch Slider)
 
 ## It includes the following features
 * The menu section is dynamic
