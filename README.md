@@ -19,6 +19,7 @@ https://zarfood.netlify.app/
 You do not need to install any software to run this project.
 
 ## Built with
+- HTML / CSS
 - vanilla javascript
 - jQuery v3.6.0
 - Bootstrap v5.1.2
