@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rye&display=swap');
  
 *{
     padding:0;
@@ -7,10 +7,11 @@
 }
 @font-face {
     font-family: "vazir-font";
-    src: url("assets/fonts/Vazir-Medium-FD-WOL.eot")    format("eot");
-    src: url("assets/fonts/Vazir-Medium-FD-WOL.ttf")    format("ttf");
-    src: url("assets/fonts/Vazir-Medium-FD-WOL.woff")   format("woff");
-    src: url("assets/fonts/Vazir-Medium-FD-WOL.woff2")  format("woff2");
+     src:local("Vazir Medium"),
+    url("assets/fonts/Vazir-Medium-FD-WOL.eot") format("eot"),
+    url("assets/fonts/Vazir-Medium-FD-WOL.ttf") format("ttf"),
+    url("assets/fonts/Vazir-Medium-FD-WOL.woff") format("woff"),
+    url("assets/fonts/Vazir-Medium-FD-WOL.woff2") format("woff2")
 }
 html{
     direction:rtl;
